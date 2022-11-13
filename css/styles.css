@@ -10,8 +10,8 @@
     /* Comentario */.comments { opacity: 1;}
     /* Comentario - Texto */.comments h4, .comments h3, .comments h2, .comments h1, .comments p { font-size: 14px;}
     /* Título */ .post-title, .entry-title { font-size: 24px; font-weight: 600;}
-    /* Botones */ .home-link, .blog-pager-older-link, .blog-pager-newer-link { display: inline-block; background: #292a2d; padding: 5px 20px; border-radius: 10px; color: #F1F3F4;}
-    /* Botones Hover */ .home-link:hover, .blog-pager-older-link:hover, .blog-pager-newer-link:hover { background: rgba( 0, 0, 0, 0.25); transition: 0.25s; color: #F1F3F4; background-color: rgba(255, 255, 255, 0.25); border-radius: 2px;}
+    /* Botones */ .home-link, .blog-pager-older-link, .blog-pager-newer-link, .feed-links, .jump-link { display: inline-block; background: #292a2d; padding: 5px 20px; border-radius: 10px; color: #F1F3F4;}
+    /* Botones Hover */ .home-link:hover, .blog-pager-older-link:hover, .blog-pager-newer-link:hover, .feed-links, .jump-link { background: rgba( 0, 0, 0, 0.25); transition: 0.25s; color: #F1F3F4; background-color: rgba(255, 255, 255, 0.25); border-radius: 2px;}
     /* Footer del Post */ .post-footer { margin: 10px 0; padding: 20px; border-radius: 10px; background-color: #292a2d; color: #F1F3F4; font-size: 12px;}
     /* Footer del Post - Enlace */ .post-footer a { color: #F1F3F4;}
     /* Footer del Post - Enlace Hover */ .post-footer a:hover { color: #F1F3F4; background-color: rgba(255, 255, 255, 0.25); border-radius: 2px;}
@@ -28,6 +28,7 @@
     max-width: 1000px;
 }
 
+a { color:#34868b; text-decoration: none;}
 section h1 { font: 22px; margin-top: 20px; font-weight: 600;}
 section h2 { font: 20px; margin-top: 20px; font-weight: 600;}
 section h3 { font: 18px; margin-top: 20px; font-weight: 600;}
