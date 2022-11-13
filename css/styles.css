@@ -4,7 +4,18 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-/**  **/
+/** Formato de Blogger **/
+    /* Comentario - Reply */.comment-replybox-thread { border-radius: 10px; overflow: hidden;}
+    /* Comentario - Hover */.comments { opacity: 0.75;}
+    /* Comentario */.comments { opacity: 1;}
+    /* Comentario - Texto */.comments h4, .comments h3, .comments h2, .comments h1, .comments p { font-size: 14px;}
+    /* Título */ .post-title, .entry-title { font-size: 24px; font-weight: 600;}
+    /* Botones */ .home-link, .blog-pager-older-link, .blog-pager-newer-link { display: inline-block; background: #292a2d; padding: 5px 20px; border-radius: 10px; color: #F1F3F4;}
+    /* Botones Hover */ .home-link:hover, .blog-pager-older-link:hover, .blog-pager-newer-link:hover { background: rgba( 0, 0, 0, 0.25); transition: 0.25s; color: #F1F3F4; background-color: rgba(255, 255, 255, 0.25); border-radius: 2px;}
+    /* Footer del Post */ .post-footer { margin: 10px 0; padding: 20px; border-radius: 10px; background-color: #292a2d; color: #F1F3F4; font-size: 12px;}
+    /* Footer del Post - Enlace */ .post-footer a { color: #F1F3F4;}
+    /* Footer del Post - Enlace Hover */ .post-footer a:hover { color: #F1F3F4; background-color: rgba(255, 255, 255, 0.25); border-radius: 2px;}
+
 /** Formato de Display **/
 .view-phone { display: none;}
 .view-web { display: block;}
