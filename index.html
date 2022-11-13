@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <!-- Librerias de Referencia-->
+    <link rel="stylesheet" href="css/styles.css"></link>
+    <link rel="stylesheet" href="css/bootstrap.css" crossorigin="anonymous"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""></link>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&#38;display=swap" rel="stylesheet"></link>
+    <!-- Script de REferencias-->
+    <script src="js/script.js" type="text/javascript" defer></script>
+    <script src="https://kit.fontawesome.com/0e9c5f4ac4.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <title><data:blog.pageTitle/></title>
+    <b:skin><![CDATA[]]></b:skin>
+
+</head>
+<body>
+    <div class="me-body">
+    <div class="container-fluid me-container">
+        <div class="row">
+            <div class="p-0 col-12 col-md-12 col-xl-12">
+
+                <div class="me-header">
+                    <div class="row">
+                        <div class="p-0 col-2 col-md-3 col-xl-3">
+                            <img src="#" alt="iholo - Conclude"></img>
+                        </div>
+                        <div class="p-0 col-5 col-md-3 col-xl-3">
+
+                            <div class="me-search">
+                                <!-- Change input propierties -->
+                                <form expr:action='data:blog.searchUrl'>
+                                    <input type="text" placeholder="Busca algo..." autocomplete='on' expr:value='data:view.isSearch ? data:view.search.query.escaped : &quot;&quot;' name='q'></input>
+                                    <button type="submit" expr:value='data:messages.search'><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+
+                        </div>
+                        <div class="p-0 col-5 col-md-6 col-xl-6">
+                            <div class="me-nav">
+                                <ul>
+                                    <a href="#" class="me-nav-link">
+                                        <li class="me-nav-link"><p class="view-web">Noticias</p><p class="view-phone"><i class="fa-sharp fa-solid fa-square-rss"></i></p></li>
+                                    </a>
+                                    <a href="#" class="me-nav-link">
+                                        <li class="me-nav-link"><p class="view-web">Páginas</p><p class="view-phone"><i class="fa-solid fa-newspaper"></i></p></li>
+                                    </a>
+                                    <a href="#" class="me-nav-link">
+                                        <li class="me-nav-link"><p class="view-web">Tienda</p><p class="view-phone"><i class="fa-solid fa-bag-shopping"></i></p> </li>
+                                    </a>
+                                    <a href="#" class="me-nav-link">
+                                        <li class="me-nav-link"><p class="view-web">Contacto</p><p class="view-phone"><i class="fa-solid fa-address-card"></i></p></li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-12 col-xl-12">
+
+                <!-- Section Code - All of Blogger -->
+                <section>
+                    <b:section class='main' id='main' showaddelement='yes'>
+                        <b:widget id='Blog1' locked='false' title='Entradas del blog' type='Blog'>
+                        </b:widget>
+                    </b:section>
+                    <h1>¡Bienvenido al código de iholo!</h1><hr></hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsum labore eius culpa tempore iste fugit vero unde maxime, explicabo dolores doloremque accusantium ipsa.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam illum odit nisi, earum ut quasi qui numquam tempore, quas molestiae explicabo beatae impedit hic eos aliquam corporis quidem doloribus aut ad voluptatem, ratione blanditiis esse quod. Aliquid error quae velit nihil fuga, illum iusto quos.</p>
+                </section>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="p-0 col-12 col-md-12 col-xl-12">
+
+                <div class="me-footer">
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-xl-4">
+                            <div class="me-footer-1">
+                                <img src="#" alt="Colaboración de Littel Pixel"></img>
+                                <img src="#" alt="Colaboración de David Paez"></img>
+                                <hr></hr>
+                                <p><a href="#">David Páez</a>
+                                    <script>
+                                    var f = new Date();
+                                    document.write(f.getFullYear());
+                                    </script>
+                                 - Con la tecnología de <a href="#">Blogger</a></p>
+                                <div class="me-quote"><p><a href="#"><i>iholo - Conclude Version 2.01</i></a></p></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-xl-4">
+                            <div class="me-footer-2">
+                                <h3>Enlaces Adicionales</h3><hr></hr>
+                                <ul>
+                                    <a href="#" class="me-footer-link">
+                                        <li class="me-footer-link">Encrypter</li>
+                                    </a>
+                                    <a href="#" class="me-footer-link">
+                                        <li class="me-footer-link">Acerca de</li>
+                                    </a>
+                                    <a href="#" class="me-footer-link">
+                                        <li class="me-footer-link">Cookies</li>
+                                    </a>
+                                    <a href="#" class="me-footer-link">
+                                        <li class="me-footer-link">Privacidad</li>
+                                    </a>
+                                    <a href="#" class="me-footer-link">
+                                        <li class="me-footer-link">Galería de Fotos</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-4 col-xl-4">
+                            <div class="me-footer-3">
+                                <h3>Estadísticas</h3><hr></hr>
+                                <img src="#" alt="Stats"></img>
+                                <h3>Redes Sociales</h3><hr></hr>
+                                <ul>
+                                    <a href="#" class="me-footer-social">
+                                        <li class="me-footer-social"><i class="fa-brands fa-square-youtube"></i></li>
+                                    </a>
+                                    <a href="#" class="me-footer-social">
+                                        <li class="me-footer-social"><i class="fa-brands fa-square-instagram"></i></li>
+                                    </a>
+                                    <a href="#" class="me-footer-social">
+                                        <li class="me-footer-social"><i class="fa-brands fa-square-facebook"></i></li>
+                                    </a>
+                                    <a href="#" class="me-footer-social">
+                                        <li class="me-footer-social"><i class="fa-brands fa-square-whatsapp"></i></li>
+                                    </a>
+                                    <br></br>
+                                    <a href="#" class="me-footer-link">
+                                        <li class="me-footer-social">Discord</li>
+                                    </a>
+                                    <a href="#" class="me-footer-link">
+                                        <li class="me-footer-social">¿Alguna sugerencia?</li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
