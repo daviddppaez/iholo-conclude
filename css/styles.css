@@ -55,6 +55,9 @@ section p { font-size: 14px;}
     font-size: 14px;
     display: inline-block;
     vertical-align: top;
+    width: 100%;
+    max-width: 110px;
+    padding-left: 10px;
 }
 
 .me-search {
@@ -136,6 +139,7 @@ section {
 .me-footer p a { text-decoration: underline;}
 .me-footer a { color: #F1F3F4; text-decoration: none;}
 .me-footer ul { padding: 0;}
+.me-footer img {width: 75%; margin: 20px;}
 
 .me-footer-link li {
     font-size: 12px;
@@ -176,6 +180,13 @@ section {
         width: 100%;
         margin: 0;
     }
+
+    .me-header img {
+        max-width: 60px;
+        padding-left: 20px;
+    }
+
+    .me-footer img {width: 40%;}
 
     section {
         margin: 0 10px;
