@@ -17,6 +17,34 @@
     /* Footer del Post - Enlace */ .post-footer a { color: #F1F3F4;}
     /* Footer del Post - Enlace Hover */ .post-footer a:hover { color: #F1F3F4; background-color: rgba(255, 255, 255, 0.25); border-radius: 2px;}
 
+/** Formato de Colecciones **/
+  .my-video-iframe { width: 40%; height:315px; float: right; margin: 0 5% 5%; border-radius: 10px;}
+  
+    .my-promo-info {
+        width: 100%;
+        background-color: #292a2d;
+      	background-repeat: no-repeat;
+      	background-position: right;
+     	text-shadow: 1px 1px 2px black;
+        padding: 20px;
+        height: 250px;
+        border-radius: 20px;
+    }
+  
+  .my-promo-info h2, .my-promo-info p { background: #292a2d; display: inline-block; padding: 10px 20px; border-radius: 20px;}
+
+    table {   border-collapse: collapse; overflow: hidden; width: 100%;}
+    td {padding: 8px; border: 1px solid #34868b;}
+	tr:hover { background: rgba(0, 0, 0, 0.1);}
+
+     th {
+      padding: 12px;
+      text-align: left;
+      background-color: #34868b;
+      color: white;
+      border: 1px solid #34868b;
+    }
+
 /** Formato de Display **/
 .view-phone { display: none;}
 .view-web { display: block;}
@@ -172,6 +200,10 @@ section {
 
 
 @media (max-width: 767px) {
+    
+    /** Formato de Colecciones **/
+    .my-video-iframe { width: 90%;}
+    
     .view-phone { display: block;}
     .view-web { display: none;}
 
